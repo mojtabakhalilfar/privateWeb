@@ -1,0 +1,20 @@
+{
+    "Navigation": [
+        {
+            "title": "CONTACT ME",
+            "href": "/contactme"
+        },
+        {
+            "title": "Portfolio",
+            "href": "/portfolio"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "About me",
+            "href": "/aboutme"
+        }
+    ]
+}
