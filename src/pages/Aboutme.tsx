@@ -28,10 +28,10 @@ const Aboutme = () => {
         </p>
         <Button>EXPLORE</Button>
         <Sepaeator/>
-        <div>
+        <div className='sm:grid sm:grid-cols-2 sm:bg-center'>
           {
             abiltis.map((items) => (
-              <div className='flex flex-col items-start justify-around text-black py-10'>
+              <div className='flex flex-col items-start justify-around text-black py-10 sm:px-12'>
                 <span className='font-bold text-[17px] leading-[18%] pb-4'>{items.title}</span>
                 <p className='font-light text-[13px]'>{items.describtion}</p>
               </div>
