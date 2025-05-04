@@ -6,6 +6,7 @@ import Aboutme from "@/pages/Aboutme";
 import Skills from "@/pages/Skills";
 import Portfolio from "@/pages/Portfolio";
 import Contactme from "@/pages/Contactme";
+import Footer from "@/component/Footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -29,16 +30,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="flex flex-col">
-      <Header  />
+      <Header id="header"/>
       <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
-      {/* <Aboutme/>
-      <Skills/>
-      <Portfolio/>
-      <Contactme/> */}
+      <Footer />
     </html>
   );
 }
