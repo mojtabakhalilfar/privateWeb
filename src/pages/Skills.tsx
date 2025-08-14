@@ -57,8 +57,8 @@ const ShowSkill = ({title , data}:{title:string , data : Array<{title : string ,
       <span className='font-bold text-[30px] leading-[18%] text-black mb-16'>{title} :</span>
       <div className='grid grid-cols-2 sm:grid-cols-4 gap-10 overflow-y-auto max-h-[340px] w-full mt-2'>
         {
-          data.map((items) => (
-            <div className='flex flex-col items-center'>
+          data.map((items , index) => (
+            <div key={index} className='flex flex-col items-center'>
               <img className='w-[84px] h-[100px] mb-4' src={items.image} alt={items.title} />
               <span className='text-[24px] text-black'>{items.title}</span>
             </div>

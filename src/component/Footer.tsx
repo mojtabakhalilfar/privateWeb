@@ -23,8 +23,8 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center justify-around w-[60%] sm:w-1/5 my-4'>
                 {
-                    connectin.map((items)=>(
-                        <a href={items.link}>
+                    connectin.map((items , index)=>(
+                        <a key={index} href={items.link}>
                             <img className='w-[30px] aspect-square' src={items.image} alt="" />
                         </a>
                     ))
