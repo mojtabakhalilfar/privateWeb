@@ -4,6 +4,7 @@ import Headline from '@/component/Headline'
 import Sepaeator from '@/component/Sepaeator'
 import React from 'react'
 
+
 interface IAbility {
   id: number,
   title: string,
@@ -12,25 +13,27 @@ interface IAbility {
 
 const Aboutme = () => {
   const abiltis: IAbility[] = [
-    { id: 1, title: "DESIGN", describtion: "I can design the website based on your needs and suggestions. I can also create it from scratch by consulting with you during work." },
-    { id: 2, title: "DEVELOPMENT", describtion: "Based on a project created by me or another one, sent by you, I can program the website to be fully functional and responsive." },
-    { id: 3, title: "MAINTENANCE", describtion: "In case of any problems or the need for changes, I can introduce new functionalities and solutions." }
+    { id: 1, title: "توسعه فرانت اند", describtion: "تجربه کار با HTML، CSS، JavaScript و فریم‌ورک‌هایی مثل React و Next.js را دارم. همیشه سعی می‌کنم کد تمیز و بهینه بنویسم و رابط‌های کاربری روان و زیبا بسازم." },
+    { id: 2, title: "توسعه بک اند", describtion: "به تازگی شروع به یادگیری بک‌اند با Node.js کرده‌ام و با Express.js و ساخت API آشنا هستم. هدفم این است که یک توسعه‌دهنده فول‌استک شوم." },
+    { id: 3, title: "طراحی UI/UX", describtion: "برای طراحی رابط کاربری از فیگما استفاده می‌کنم و تلاش می‌کنم طرح‌هایم علاوه بر زیبایی، تجربه کاربری خوبی هم داشته باشند." }
   ]
+
+
   return (
     <div id='aboutme' className='flex items-center justify-center py-10'>
       <div className='w-[80%] sm:[60%] flex flex-col items-center'>
-        <Headline headline='ABOUT ME' />
-        <p className='font-light text-xs text-black my-10'>
-          <span>{"My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry."}
-          </span>
+        <Headline headline='درباره من' />
+        <p className='font-light text-xs sm:text-3xl text-black my-10'>
+          {/* <span>{"My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry."}
+          </span> */}
           <br className='my-1' />
-          <span>Membership in the science club developed my design skills, which quickly turned into a new hobby. I am fluent in English (spoken and written) and intermediate Spanish. Apart from designing and programming websites, my passion is all kinds of motorsport - from rallies to the very king of motorsport - formula 1.</span>
+          <span>{"من یک برنامه‌نویس و طراح وب هستم که فارغ‌التحصیل مهندسی کامپیوترم. چند سالی است که در زمینه فرانت‌اند فعالیت می‌کنم و اخیراً به یادگیری بک‌اند روی آورده‌ام. به طراحی رابط کاربری و تجربه کاربری نیز علاقه‌مندم و از فیگما برای پیاده‌سازی ایده‌هایم استفاده می‌کنم. با وجود اینکه هنوز در جایی استخدام نشده‌ام، همیشه در حال یادگیری و توسعه مهارت‌های خود هستم."}</span>
         </p>
         <Button>EXPLORE</Button>
-        <Sepaeator/>
+        <Sepaeator />
         <div className='sm:grid sm:grid-cols-2 sm:bg-center'>
           {
-            abiltis.map((items , index) => (
+            abiltis.map((items, index) => (
               <div key={index} className='flex flex-col items-start justify-around text-black py-10 sm:px-12'>
                 <span className='font-bold text-[17px] leading-[18%] pb-4'>{items.title}</span>
                 <p className='font-light text-[13px]'>{items.describtion}</p>
@@ -38,7 +41,7 @@ const Aboutme = () => {
             ))
           }
         </div>
-        <Sepaeator/>
+        <Sepaeator />
       </div>
     </div>
   )

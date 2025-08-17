@@ -1,0 +1,10 @@
+{
+  "title": "About Me",
+  "intro": "I am a web developer and designer with a degree in Computer Engineering. I have been working in front-end development for several years, and recently I started learning back-end development. I am also passionate about UI/UX design and use Figma to bring my ideas to life. Although I have not been employed yet, I am constantly learning and improving my skills.",
+  "frontend_title": "Front-End Development",
+  "frontend_text": "I have experience with HTML, CSS, JavaScript, and frameworks like React and Next.js. I always strive to write clean, optimized code and create smooth, beautiful user interfaces.",
+  "backend_title": "Learning Back-End",
+  "backend_text": "I have recently started learning back-end development with Node.js and am familiar with Express.js and building APIs. My goal is to become a full-stack developer.",
+  "figma_title": "Design with Figma",
+  "figma_text": "I use Figma for designing user interfaces and aim to create designs that are not only visually appealing but also provide a great user experience."
+}

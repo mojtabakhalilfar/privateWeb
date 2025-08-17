@@ -14,18 +14,18 @@ const Skills = () => {
     USINGNOW: [
       { title: "HTML", image: "/assets/image/HTML.svg" },
       { title: "CSS", image: "/assets/image/CSS.svg" },
-      { title: "SASS", image: "/assets/image/SASS.svg" },
+      // { title: "SASS", image: "/assets/image/SASS.svg" },
       { title: "JAVASCRIPT", image: "/assets/image/JAVASCRIPT.svg" },
       { title: "REACT", image: "/assets/image/REACT.svg" },
-      { title: "BOOTSTRAP", image: "/assets/image/bootstrap.svg" },
+      // { title: "BOOTSTRAP", image: "/assets/image/bootstrap.svg" },
       { title: "GIT", image: "/assets/image/git.svg" },
       { title: "FIGMA", image: "/assets/image/figma.svg" },
+      { title: "TYPESCRIPT", image: "/assets/image/TYPESCRIPT.png" },
+      { title: "MYSQL", image: "/assets/image/MYSQL.svg" },
+      { title: "MONGODB", image: "/assets/image/MONGODB.png" },
     ],
     LEARNING: [
       { title: "NODEJS", image: "/assets/image/NODEJS.png" },
-      { title: "MYSQL", image: "/assets/image/MYSQL.svg" },
-      { title: "MONGODB", image: "/assets/image/MONGODB.png" },
-      { title: "TYPESCRIPT", image: "/assets/image/TYPESCRIPT.png" },
     ],
     OTHERSKILLS: [
       { title: "C++", image: "/assets/image/C++.svg" },
@@ -35,11 +35,11 @@ const Skills = () => {
   return (
     <div id='skills' className='flex items-center justify-center py-10'>
       <div className='flex flex-col items-center justify-center'>
-        <Headline headline='Skills' />
-        <div className='flex flex-col items-center py-8'>
-          <ShowSkill data={skills.USINGNOW} title='USING NOW' />
-          <ShowSkill data={skills.LEARNING} title='LEARNING' />
-          <ShowSkill data={skills.OTHERSKILLS} title='OTHER SKILLS' />
+        <Headline headline='مهارت ها' />
+        <div className='flex flex-col items-center py-16'>
+          <ShowSkill data={skills.USINGNOW} title='درحال استفاده' />
+          <ShowSkill data={skills.LEARNING} title='درحال یادگیری' />
+          <ShowSkill data={skills.OTHERSKILLS} title='مهارت های دیگر' />
         </div>
       </div>
 
