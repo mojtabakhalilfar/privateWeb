@@ -13,7 +13,7 @@ const FirstPage = () => {
     return (
         <Container id='home' >
             <div className="flex flex-col sm:flex-row-reverse justify-end sm:justify-start h-[696px] bg-black w-full mt-14 sm:mt-18">
-                <div className='flex sm:flex-col justify-between sm:justify-center bg-red-400 w-1/2'>
+                <div className='flex sm:flex-col justify-between sm:justify-center bg-gray-500 w-1/2'>
                     <p className='font-bold text-white sm:text-black flex flex-col py-20 px-12 sm:px-32'>
                         <span className=' text-[20px] sm:text-[40px]'>سلام , من</span>
                         <span className='text-[35px] sm:text-[80px]'>مجتبی خلیل فر</span>
@@ -28,13 +28,13 @@ const FirstPage = () => {
                     </div>
                 </div>
                 <div className='bg-yellow-300 w-1/2 h-full'>
-                        <img className='w-full h-full' src="" alt="" />
+                        <img className='w-full h-full' src="/assets/image/prof.jpg" alt="" />
                 </div>
             </div>
             {/* ////// */}
-            <div className='flex flex-col items-center text-center text-white bg-black py-10 sm:pl-[10%]'>
+            <div className='flex flex-col items-center text-center text-white bg-black py-10'>
                 <span className='font-bold text-[25px] tracking-[18%]'>IT BERRIES</span>
-                <p className='sm:text-[15px] leading-[138%] w-[85%] sm:w-[90%] sm:pr-[10%] sm:text-left my-12'>{"سلام! من یک برنامه‌نویس و طراح وب هستم با علاقه فراوان به یادگیری چیزهای جدید و حل مسائل پیچیده. چند سالی است که در فرانت‌اند فعالیت می‌کنم و اخیراً به یادگیری بک‌اند پرداخته‌ام. از کارهای گروهی لذت می‌برم و همیشه تلاش می‌کنم با همکاری و خلاقیت پروژه‌های جذاب بسازم. علاوه بر کدنویسی، به طراحی رابط کاربری و تجربه کاربری علاقه دارم و از ابزارهایی مثل فیگما برای پیاده‌سازی ایده‌هایم استفاده می‌کنم."}</p>
+                <p className='sm:text-[20px] leading-[138%] w-[85%] sm:w-[90%] sm:text-center my-12'>{"سلام! من یک برنامه‌نویس و طراح وب هستم با علاقه فراوان به یادگیری چیزهای جدید و حل مسائل پیچیده. چند سالی است که در فرانت‌اند فعالیت می‌کنم و اخیراً به یادگیری بک‌اند پرداخته‌ام. از کارهای گروهی لذت می‌برم و همیشه تلاش می‌کنم با همکاری و خلاقیت پروژه‌های جذاب بسازم. علاوه بر کدنویسی، به طراحی رابط کاربری و تجربه کاربری علاقه دارم و از ابزارهایی مثل فیگما برای پیاده‌سازی ایده‌هایم استفاده می‌کنم."}</p>
                 <button className='text-white border-x px-10 py-2 hover:border-black hover:bg-white hover:text-black'>MORE</button>
             </div>
         </Container>

@@ -23,7 +23,7 @@ const Aboutme = () => {
     <div id='aboutme' className='flex items-center justify-center py-10'>
       <div className='w-[80%] sm:[60%] flex flex-col items-center'>
         <Headline headline='درباره من' />
-        <p className='font-light text-xs sm:text-3xl text-black my-10'>
+        <p className='font-light text-xs sm:text-[25px] text-center text-black my-10'>
           {/* <span>{"My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry."}
           </span> */}
           <br className='my-1' />
@@ -35,8 +35,8 @@ const Aboutme = () => {
           {
             abiltis.map((items, index) => (
               <div key={index} className='flex flex-col items-start justify-around text-black py-10 sm:px-12'>
-                <span className='font-bold text-[17px] leading-[18%] pb-4'>{items.title}</span>
-                <p className='font-light text-[13px]'>{items.describtion}</p>
+                <span className='font-bold text-[18px] leading-[18%] pb-4'>{items.title}</span>
+                <p className='font-light text-[13px] sm:text-[18px]'>{items.describtion}</p>
               </div>
             ))
           }
