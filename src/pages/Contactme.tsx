@@ -29,7 +29,7 @@ const Contactme = () => {
       <div className='flex flex-col items-center justify-center'>
 
         <Headline headline='ارتباط با من' />
-        <p className='font-light text-[15px] w-[80%] text-center my-6'>من مجتبی خلیل فر هستم، فارغ‌التحصیل مهندسی کامپیوتر، با چند سال تجربه فرانت‌اند و در حال توسعه مهارت‌های بک‌اند، علاقه‌مند به یادگیری فناوری‌های جدید و حل مسائل پیچیده. </p>
+        <p className='font-light text-[15px] sm:text-[18px] w-[80%] text-center my-6'>من مجتبی خلیل فر هستم، فارغ‌التحصیل مهندسی کامپیوتر، با چند سال تجربه فرانت‌اند و در حال توسعه مهارت‌های بک‌اند، علاقه‌مند به یادگیری فناوری‌های جدید و حل مسائل پیچیده. </p>
         <Sepaeator/>
         <div className='flex flex-col items-center py-8 w-full'>
           <form className='w-[80%] flex flex-col items-center' ref={formRef} onSubmit={handleSubmit}>

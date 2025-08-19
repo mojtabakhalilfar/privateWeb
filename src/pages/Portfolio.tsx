@@ -29,10 +29,10 @@ const Portfolio = () => {
                   </div>
                   <div className='w-full h-/5 flex justify-around h-1/4'>
                     <button className='bg-yellow-300 border border-yellow-400 hover:bg-yellow-400 w-1/3 rounded-[15px] p-2 hover:text-white'>
-                      <a href={item.link}>لینک انلاین</a>
+                      <a target='_blank' href={item.link}>لینک انلاین</a>
                     </button>
                     <button className='bg-yellow-300 border border-yellow-400 hover:bg-yellow-400 w-1/3 rounded-[15px] p-2 hover:text-white'>
-                      <a href={item.source}>لینک کد</a>
+                      <a target='_blank' href={item.source}>لینک کد</a>
                     </button>
                   </div>
                 </div>
