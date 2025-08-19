@@ -21,8 +21,8 @@ const Portfolio = () => {
                 <div className='flex flex-col items-center justify-evenly w-full h-1/2 z-10'>
                   <h1 className='text-[20px] text-center h-1/4 w-auto'>{item.title}</h1>
                   <div className='flex flex-row-reverse justify-evenly w-full px-4 h-1/4'>
-                    {item.technology.map((item) => (
-                      <span className='text-[15px] mx-1'>{item}</span>
+                    {item.technology.map((item , index) => (
+                      <span key={index} className='text-[15px] mx-1'>{item}</span>
                     ))}
                   </div>
                   <div className='w-full h-/5 flex justify-around h-1/4'>
