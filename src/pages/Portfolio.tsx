@@ -1,5 +1,4 @@
 import Headline from '@/component/Headline'
-import Link from 'next/link'
 import React from 'react'
 
 const Portfolio = () => {
@@ -19,7 +18,6 @@ const Portfolio = () => {
             portfolio.map((item, index) => (
               <div className='w-[20rem] sm:w-[25rem] aspect-square border rounded-2xl flex flex-col items-center justify-center relative' key={index}>
                 <div style={{ backgroundImage: `url(${item.image})` }} className='bg-cover bg-center bg-no-repeat absolute inset-0 blur-md hover:blur-[2px]'></div>
-                {/* <img className='w-[382px] h-[209px]' src={item.image} alt={item.title} /> */}
                 <div className='flex flex-col items-center justify-evenly w-full h-1/2 z-10'>
                   <h1 className='text-[20px] text-center h-1/4 w-auto'>{item.title}</h1>
                   <div className='flex flex-row-reverse justify-evenly w-full px-4 h-1/4'>

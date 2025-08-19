@@ -2,22 +2,13 @@ import Headline from '@/component/Headline'
 import React from 'react'
 
 
-// interface ISkiils{
-
-//       title : string ,
-//       image : string
-// }
-
-
 const Skills = () => {
   const skills = {
     USINGNOW: [
       { title: "HTML", image: "/assets/image/HTML.svg" },
       { title: "CSS", image: "/assets/image/CSS.svg" },
-      // { title: "SASS", image: "/assets/image/SASS.svg" },
       { title: "JAVASCRIPT", image: "/assets/image/JAVASCRIPT.svg" },
       { title: "REACT", image: "/assets/image/REACT.svg" },
-      // { title: "BOOTSTRAP", image: "/assets/image/bootstrap.svg" },
       { title: "GIT", image: "/assets/image/git.svg" },
       { title: "FIGMA", image: "/assets/image/figma.svg" },
       { title: "TYPESCRIPT", image: "/assets/image/TYPESCRIPT.png" },

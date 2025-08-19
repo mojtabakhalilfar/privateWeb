@@ -24,8 +24,6 @@ const Aboutme = () => {
       <div className='w-[80%] sm:[60%] flex flex-col items-center'>
         <Headline headline='درباره من' />
         <p className='font-light text-xs sm:text-[25px] text-center text-black my-10'>
-          {/* <span>{"My name is Tomasz Gajda, I'm a third year Applied Computer Science student at the AGH University of Science and Technology in Krakow. I have been learning Front-End technologies for a year and this time was just enough for me to make sure that this is my place in the industry."}
-          </span> */}
           <br className='my-1' />
           <span>{"من یک برنامه‌نویس و طراح وب هستم که فارغ‌التحصیل مهندسی کامپیوترم. چند سالی است که در زمینه فرانت‌اند فعالیت می‌کنم و اخیراً به یادگیری بک‌اند روی آورده‌ام. به طراحی رابط کاربری و تجربه کاربری نیز علاقه‌مندم و از فیگما برای پیاده‌سازی ایده‌هایم استفاده می‌کنم. با وجود اینکه هنوز در جایی استخدام نشده‌ام، همیشه در حال یادگیری و توسعه مهارت‌های خود هستم."}</span>
         </p>
